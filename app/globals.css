@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+
 .cursive {
-  font-family: "cedarville cursive", cursive;
+  font-family: "Cedarville Cursive", cursive;
 }
 .Welcome-text {
   background: linear-gradient(
@@ -17,7 +20,6 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 .Welcome-box {
   isolation: isolate;
   overflow: hidden;
@@ -61,6 +63,8 @@
 .scrollbar-hidden::-webkit-scrollbar {
   display: none;
 }
+
+
 
 html {
   scroll-behavior: smooth;
